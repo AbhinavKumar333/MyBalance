@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Change Bank" android:id="@+id/bank"></item>
+    <item android:title="Change Password" android:id="@+id/cpass"></item>
+    <item android:title="About" android:id="@+id/about"></item>
+    <item android:title="Exit" android:id="@+id/exit"></item>
+</menu>

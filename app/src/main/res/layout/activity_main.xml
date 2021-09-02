@@ -1,58 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.abhinav.sample.MainActivity">
-
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_height="40dp"
-        android:layout_marginLeft="50dp"
-        android:layout_width="130dp"
-        android:layout_alignParentTop="true"
-        android:inputType="textPersonName" />
-        <!--android:text="Bank   Account" />-->
-
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="210dp"
-        android:layout_alignParentTop="true"
-        android:text="Search" />
-
-        <ListView
-            android:id="@+id/list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="4dp"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="113dp" />
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+                android:background="#DCDCDC">
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="200dp"
+            android:layout_alignParentTop="true"
+            android:textAlignment="center"
+            android:text="PLease Enter Bank"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:background="#C0C0C0"/>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_marginTop="50dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="30dp"
-            android:layout_width="137dp"
-            android:text="Available Balance" />
-            android:layout_alignParentTop="true" />
-        <TextView
-            android:id="@+id/textView"
-            android:layout_marginTop="50dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="50dp"
-            android:layout_width="137dp"
-            android:layout_alignParentTop="true" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="4dp"
+                android:backgroundTint="@color/cardview_light_background"
+                android:layout_marginTop="40dp"/>
     </LinearLayout>
+    <!--<RelativeLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentStart="true">-->
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/textView1"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="477dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="30dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginLeft="50dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="137dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="Available Balance"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="16dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textColor="@color/colorPrimaryDark"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:elevation="5dp" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/textView"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="30dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginLeft="50dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="137dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="479dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginStart="220dp"&ndash;&gt;-->
+                 <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--</RelativeLayout>-->
 
 </RelativeLayout>
